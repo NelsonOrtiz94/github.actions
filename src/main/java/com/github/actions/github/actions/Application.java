@@ -15,7 +15,7 @@ public class Application {
 	}
 
 	@GetMapping("/saludos")
-	public String saludar2(){
+	public String saludoFormal(){
 		return "Saludo más formal";
 	}
 
