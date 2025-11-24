@@ -14,6 +14,11 @@ public class Application {
 		return "Hola Mundo!";
 	}
 
+	@GetMapping("/saludos")
+	public String saludar2(){
+		return "Saludo más formal";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
